@@ -40,9 +40,18 @@
 
 
 .his-life, 
-.career-history,
+.gallery,
 .impact{
-	background: url("../images/dark-honeycomb/") no-repeat;
+	background: url("../images/dark-honeycomb/dark-honeycomb.png");
+	width: 100%;
+	}
+
+.impact img{
+	width:220px;
+	height: 195px;
+	padding: 20px 20px;
+	overflow: hidden;
+	border-radius: 75px;
 	
 }
 
@@ -57,7 +66,7 @@ header{
 }
 
 .branding{
-  background: url("../images/") no-repeat;
+  background: url(" ") no-repeat;
   width: 170px;
   height: 40px;
   float: left;

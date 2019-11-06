@@ -29,7 +29,6 @@
 
 .home,
 .his-life,
-.gallery,
 .discography,
 .career-history,
 .impact,
@@ -39,10 +38,83 @@
 }
 
 
-.his-life, 
+.gallery{
+	float:left;
+	background: url("../images/dark-honeycomb/dark-honeycomb.png");
+	
+}
+
+.gallery {
+  width: 100%;
+  padding: 100px 0;
+  float: left;
+  background-color: #000000;
+}
+
+.row{
+  float: left;
+  margin-bottom: 20px;
+}
+
+.box-grid h3{
+  margin: 10px 10px 0 10px;
+  color: #ffffff;
+  font: 18pt 'Arial', sans-serif;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.box-grid p{
+  padding: 0 10px;
+  color: red;
+  font-weight: bold;
+  font: 10pt 'Arial' , sans-serif;
+}
+
+.box-grid{
+  width: 300px;
+  height: 260px;
+  float: left;
+  background: #161613;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.box-grid img{
+ overflow:hidden;
+  width: 300px;
+  height: 380px;
+	
+	
+}
+
+.boxcaption{
+  float: left;
+  position: absolute;
+  background-color: #000000;
+  height: 100px;
+  width: 100%;
+  opacity: .8;
+}
+
+.box-grid a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.captionfull .boxcaption{
+  top: 260px;
+  left: 0;
+}
+
+.caption .boxcaption{
+  top:220px;
+  left: 0;
+}
+.his-life,
 .gallery,
 .impact{
-	background: url("../images/dark-honeycomb/dark-honeycomb.png");
 	width: 100%;
 	}
 
@@ -55,30 +127,36 @@
 	
 }
 
-header{
-  width: 100%;
+
+.carousel-cell img{
+  width: 30%;
+  height: 220px;
+  background: #ffffff;
+  counter-increment: "carousel-cell";
+  text-align: center;
+}
+
+
+
+.header{
+  
+width: 100%;
   height: 80px;
-  position: fixed;
   top: 0;
   z-index: 500;
   padding: 15px 0 8px 0;
   background-color: #4D4D4D;
+  float:left;
 }
 
-.branding{
-  background: url(" ") no-repeat;
-  width: 170px;
-  height: 40px;
-  float: left;
-  text-indent: -999em;
-}
+.header img{
+float:left;
 
-.branding a:link {
-  color: #56627A;
-  text-decoration: none;
 }
 
 nav{
+width:100%;
+background-color: #4D4D4D;
   margin-top: 10px;
   float: right;
 }
@@ -95,27 +173,27 @@ nav li{
   text-transform: uppercase;
   letter-spacing: .1em;
   display: inline-block;
-  margin-left: 20px;
+  padding: 20px 20px 20px 20px;
   cursor: pointer;
 }
 
 nav li a:link{
-  color: #091c5a;
+  color: #DDA528;
   text-decoration:none;
 }
 
 nav li a:visited{
-  color: #091c5a;
+  color: #C35A4C;
   text-decoration:none;
 }
 
 nav li a:hover{
-  color: #ff6600;
+  color: #DDA528;
   text-decoration:none;
 }
 
 nav li a:active{
-  color: #ff6600;
+  color: #C35A4C;
   text-decoration:none;
 }
 

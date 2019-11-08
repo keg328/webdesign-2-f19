@@ -199,8 +199,8 @@ nav li{
 	text-align: left;
 }
 .align-right {
-	float: right;
-	margin: 0 0 0 10px;
+  float: right;
+  margin: 0 0 0 10px;
   padding: 0;
 }
 .align-center {

@@ -1,11 +1,95 @@
-.section {
+
+/* Header */
+
+header{
   width: 100%;
-  padding: 100px 0;
-  float: left;
-  background-color: #ffffff;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  padding: 15px 0 8px 0;
+  background-color: #4d4d4d;
 }
+
+.branding{
+  background: url("../images/logo.svg") no-repeat;
+  width: 170px;
+  height: 40px;
+  float: left;
+  text-indent: -999em;
+}
+
+.branding a:link {
+  color: #56627A;
+  text-decoration: none;
+}
+
+
+
+nav{
+width:100%;
+background-color: #4D4D4D;
+  margin-top: 20px;
+  float: right;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: right;
+}
+
+nav li{
+  font-family: 'Asap Condensed', sans-serif;
+  font-weight: 900;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  display: inline-block;
+  padding: 20px 20px 20px 20px;
+  cursor: pointer;
+}
+
+nav li a:link{
+  color: #DDA528;
+  text-decoration:none;
+}
+
+nav li a:visited{
+  color: #C35A4C;
+  text-decoration:none;
+}
+
+nav li a:hover{
+  color: #DDA528;
+  text-decoration:none;
+}
+
+nav li a:active{
+  color: #C35A4C;
+  text-decoration:none;
+}
+
+/* Headroom */
+.headroom{
+  transition: -webkit-transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear;
+}
+
+.headroom--pinned{
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.headroom--unpinned{
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+
+
 /* Hero Photo */
-.hero-photo-container img{
+.hero-container img{
  width: 100%;
  height:100%;
  display: block;
@@ -23,32 +107,35 @@
  text-transform: uppercase;
  
 }
-.home{
-  margin-top: 77px;
-}
 
-.home,
-.his-life,
+.life,
+.gallery,
 .discography,
-.career-history,
+.career,
 .impact,
 .contact{
   width: 100%;
   padding: 100px 0;
 }
 
-
-.gallery{
-	float:left;
-	background: url("../images/dark-honeycomb/dark-honeycomb.png");
-	
+.home{
+width:100%;
+padding:100px 0;
+margin-top: 77px;
 }
 
+.life{
+ background: url("../images/dark-honeycomb.png");
+	position:absolute;
+  overflow:hidden;
+}
+
+
 .gallery {
-  width: 100%;
-  padding: 100px 0;
   float: left;
-  background-color: #000000;
+  background: url("../images/miles-davis-bw.jpg")no-repeat;
+  position:relative;
+  overflow:hidden;
 }
 
 .row{
@@ -112,11 +199,7 @@
   top:220px;
   left: 0;
 }
-.his-life,
-.gallery,
-.impact{
-	width: 100%;
-	}
+
 
 .impact img{
 	width:220px;
@@ -138,78 +221,3 @@
 
 
 
-.header{
-  
-width: 100%;
-  height: 80px;
-  top: 0;
-  z-index: 500;
-  padding: 15px 0 8px 0;
-  background-color: #4D4D4D;
-  float:left;
-}
-
-.header img{
-float:left;
-
-}
-
-nav{
-width:100%;
-background-color: #4D4D4D;
-  margin-top: 10px;
-  float: right;
-}
-
-nav ul{
-  list-style-type: none;
-  text-align: right;
-}
-
-nav li{
-  font-family: 'Asap Condensed', sans-serif;
-  font-weight: 900;
-  font-size: .8em;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  display: inline-block;
-  padding: 20px 20px 20px 20px;
-  cursor: pointer;
-}
-
-nav li a:link{
-  color: #DDA528;
-  text-decoration:none;
-}
-
-nav li a:visited{
-  color: #C35A4C;
-  text-decoration:none;
-}
-
-nav li a:hover{
-  color: #DDA528;
-  text-decoration:none;
-}
-
-nav li a:active{
-  color: #C35A4C;
-  text-decoration:none;
-}
-
-/* Headroom */
-.headroom{
-  transition: -webkit-transform 200ms linear;
-  transition: transform 200ms linear;
-  transition: transform 200ms linear, -webkit-transform 200ms linear;
-}
-
-.headroom--pinned{
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
-}
-
-.headroom--unpinned{
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-}

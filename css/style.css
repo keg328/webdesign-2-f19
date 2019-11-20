@@ -1,5 +1,22 @@
+p {
+  font-family: "Zilla Slab", serif;
+  font-weight: 100;
+  color: #a5cb9c;
+}
 
-/* Header */
+.container {
+  display: block;
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+  overflow: visible;
+  clear: both;
+}
+
+.row{
+  margin-bottom:20px;
+  float:left;
+}
 
 header{
   width: 100%;
@@ -12,7 +29,7 @@ header{
 }
 
 .branding{
-  background: url("../images/logo.svg") no-repeat;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/logo.svg")     no-repeat;
   width: 170px;
   height: 40px;
   float: left;
@@ -20,17 +37,15 @@ header{
 }
 
 .branding a:link {
-  color: #56627A;
+  color: #dda528;
   text-decoration: none;
 }
 
-
-
 nav{
-width:100%;
-background-color: #4D4D4D;
-  margin-top: 20px;
+  margin-top: 10px;
   float: right;
+  color: #DDA528;
+  text-decoration:none;
 }
 
 nav ul{
@@ -39,56 +54,38 @@ nav ul{
 }
 
 nav li{
-  font-family: 'Asap Condensed', sans-serif;
+  font-family: 'asap condensed', sans-serif;
   font-weight: 900;
   font-size: .8em;
   text-transform: uppercase;
   letter-spacing: .1em;
   display: inline-block;
-  padding: 20px 20px 20px 20px;
+  margin-left: 20px;
   cursor: pointer;
 }
 
 nav li a:link{
-  color: #DDA528;
+  color: #DDA528;  
   text-decoration:none;
 }
 
 nav li a:visited{
-  color: #C35A4C;
+  color: #c35a4c ;
   text-decoration:none;
 }
 
 nav li a:hover{
-  color: #DDA528;
+  color: #c35a4c;
   text-decoration:none;
 }
 
 nav li a:active{
-  color: #C35A4C;
+  color: #DDA528;
   text-decoration:none;
 }
 
-/* Headroom */
-.headroom{
-  transition: -webkit-transform 200ms linear;
-  transition: transform 200ms linear;
-  transition: transform 200ms linear, -webkit-transform 200ms linear;
-}
+/* Hero */
 
-.headroom--pinned{
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
-}
-
-.headroom--unpinned{
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-}
-
-
-
-/* Hero Photo */
 .hero-container img{
  width: 100%;
  height:100%;
@@ -96,49 +93,71 @@ nav li a:active{
  position: relative;
 }
 
-
-.type-overlay {
+.type-overlay h1{
  width: 100%;
  position: absolute;
  top: 250px;
- margin-top:250px;
  z-index: 5;
  text-align: center;
+ font-family: "Zilla Slab", serif;
+ font-weight:700;
  text-transform: uppercase;
- 
-}
-
-.life,
-.gallery,
-.discography,
-.career,
-.impact,
-.contact{
-  width: 100%;
-  padding: 100px 0;
-}
-
-.home{
-width:100%;
-padding:100px 0;
+ color: #a5cb9c;
+  }
+.home {
 margin-top: 77px;
 }
 
-.life{
- background: url("../images/dark-honeycomb.png");
-	position:absolute;
-  overflow:hidden;
+.life {
+  width: 100%;
+  padding: 100px 0;
+  float: left;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/dark-honeycomb.png");
 }
 
-
-.gallery {
+h2{
+  margin: 20px 0 100px 0;
+  text-align: center;
+  color: #A5CB9C;
+  font-family: "Asap Condensed", sans-serif;
+  font-weight:bold;
+  text-shadow:2px 2px 4px black;
+}
+/* Discography */
+.artist-large{
+  width: 100%;
+  padding: 100px 0;
   float: left;
-  background: url("../images/miles-davis-bw.jpg")no-repeat;
-  position:relative;
-  overflow:hidden;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/miles-waynep2nh.jpg") no-repeat;
+background-size:cover;
+ background-position-y:50%;
+}
+
+.carousel-cell{
+  width:290px;
+  height: 380px;
+  margin-right: 15px;
+  text-align: center;
+ }
+.carousel{
+  background: none;
+}
+
+.carousel-cell:before{
+  height:0;
+  width:0;
+}
+
+/* Gallery */
+.gallery {
+  width: 100%;
+  padding: 100px 0;
+  float: left;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/dark-honeycomb.png") repeat;
 }
 
 .row{
+  width:940px;
   float: left;
   margin-bottom: 20px;
 }
@@ -146,7 +165,7 @@ margin-top: 77px;
 .box-grid h3{
   margin: 10px 10px 0 10px;
   color: #ffffff;
-  font: 18pt 'Arial', sans-serif;
+  font: 18pt Arial, sans-serif;
   letter-spacing: -1px;
   font-weight: bold;
 }
@@ -169,11 +188,10 @@ margin-top: 77px;
 }
 
 .box-grid img{
- overflow:hidden;
-  width: 300px;
-  height: 380px;
-	
-	
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
 }
 
 .boxcaption{
@@ -200,24 +218,204 @@ margin-top: 77px;
   left: 0;
 }
 
+/*Career History*/
+.career{
+  width:100%;
+  padding:100px 0;
+  float:left; 
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/miles-davis-looking-off.jpg") no-repeat;
+background-size:cover;
+ background-position-x:50%;
+}
+
+.career h2{
+  text-shadow:2px 2px 4px black;
+  }
+.career p{
+  text-shadow:1px 2px 2px black;
+}
+
+.career img{
+  border-radius:5px;
+}
+
+
+/*Impact*/
+.impact{
+  width:100%;
+  padding:100px 0;
+  float:left; 
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/dark-honeycomb.png") repeat;
+}
+
+.impact h2{
+  margin-left:40px;
+}
+
+.impact h4{
+  font-family:"Zilla Slab", serif;
+  text-align:center;
+  color:#a5cb9c;
+}
 
 .impact img{
-	width:220px;
-	height: 195px;
-	padding: 20px 20px;
-	overflow: hidden;
-	border-radius: 75px;
-	
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+}
+
+.impact img:hover{
+  
+  -webkit-transform: rotate(360deg);
+  
+          transform: rotate(360deg);
+}
+
+.impact p{
+  text-align:center;
 }
 
 
-.carousel-cell img{
-  width: 30%;
-  height: 220px;
-  background: #ffffff;
-  counter-increment: "carousel-cell";
+/* Contact */
+.contact{
+  width:100%;
+  padding:100px 0;
+  float:left;
+  background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/brody-davis-coltrane.jpg") no-repeat;
+  background-size:cover;
+  background-position-y: 50%;
+ 
+}
+
+
+
+form textarea{
+  opacity: 60%;
+}
+
+form input{
+  opacity: 60%;
+}
+
+.contact label{
+  color:#A5CB9C;
+  text-shadow: 1px 2px 4px black;
+}
+
+.contact input#fname{
+  width:460px;
+  margin-left:0;
+  margin-right:20px;
+  background-color:#ffffff;
+  border-radius:0px;
+  opacity:60% !important;
+}
+
+.contact input#pnum{
+  width:460px;
+  margin-left:0;
+  background-color:#ffffff;
+  border-radius:0px;
+  opacity:60% !important;
+}
+
+.contact input#email{
+  width:940px;
+  margin-left:0;
+  background-color:#ffffff;
+  border-radius:0px;
+  opacity:60% !important;
+}
+
+.contact textarea#subject{
+  width:940px;
+  background-color:#ffffff;
+  border-radius:0px;
+  font-family:"Asap Condensed", sans-serif;
+  padding:20px 0 0 5px;
+}
+
+
+ input{
+  height: 50px;
+  width: 100px;
+  background-color:#DDA528;
+  font-family:"Asap Condensed", sans-serif;
+  font-weight: 100;
+  color: #ffffff;
+  border-radius:10px;
+ margin-left:450px;
+   opacity: 100% !important;
+}
+
+/* Footer */
+footer{
+	width: 100%;
+	padding: 50px 0 20px 0;
+	text-align: center;
+	background-color: #4d4d4d;
+}
+
+
+footer a:link {
+	color: #A5A1A1 !important;
+	text-decoration: none !important;
+
+}
+
+footer a:visited {
+	color: #A5A1A1 !important;
+	text-decoration: none !important;
+
+}
+
+footer a:hover {
+	color: #c35a4c !important;
+	text-decoration: none !important;
+
+}
+
+footer a:active {
+	color: #A5A1A1 !important;
+	text-decoration: none !important;
+
+}
+
+.copyright{
+	width: 100%;
+	color: #A5A1A1;
+  text-decoration: none;
+}
+.copyright img{
+	height: 120px;
+	width: 200px;
+	margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: -10px;
+  
+}
+
+.copyright p{
+	margin-bottom: 10px;
+  font-family:"Asap Condensed", sans-serif;
+  font-weight: 100;
+  color: #A5A1A1;
+}
+
+.navbar{
+  margin-top: 20px;
+  font-family:"Asap Condensed", sans-serif !important;  
+}
+
+.navbar:a {
+  float: left;
+  display: block;
+  color: #A5A1A1;
   text-align: center;
+  padding: 20px 0px;
+  text-decoration: none;
 }
 
-
-
+i{
+  font-size:1.6em;
+}

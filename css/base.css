@@ -33,6 +33,11 @@ body {
 
 p { 
 	margin: 0 0 1.3em 0;
+    font-family: 'Zilla Slab', serif;	
+	font-size: 100%;
+	font-weight: 100;
+	line-height: 1.45em;
+	color: #A5CB9C;
 }
 
  h2, h3, h4, h5, h6 { 
@@ -51,10 +56,13 @@ h1 {
 	font-weight: bold;
 }
 h2 {
-  	font-size: 2.369em;
+  	font-family: 'Asap Condensed', sans-serif;
+    font-size: 2.369em;
 	line-height: 1.1;
 	text-align: center;
 	margin-bottom: 100px;
+    font-weight:900;
+    
 }
 h3 {
 	font-size: 1.777em;
@@ -83,22 +91,23 @@ h6 {
 }
 
 /* -------- [ Site Links ] -------- */
-a:link {
-	color: #000000;
-	text-decoration: underline;
-	outline: 0;
-}
-a:visited {
-	color: #000000;
+ a:link {
+	color: #DDA528;
 	text-decoration: none;
 	outline: 0;
 }
-a:hover {
-	color: #56627A;
+ a:visited {
+	color: #C35A4C;
+	text-decoration: none;
+	outline: 0;
+}
+ a:hover {
+	color: #DDA528;
 	text-decoration: underline;
 }
-a:active {
-	color: #56627A;
+ a:active {
+	color: #C35A4C;
+	text-decoration:none
 }
 .more {
 	font-size: 0.9em;
@@ -113,6 +122,22 @@ a:active {
 
 nav li{
 	color:#DDA528;
+}
+
+nav li a:link{
+    color: #DDA528;
+}
+
+nav li a:visited{
+    color: #c35a4c;
+}
+
+nav li a:hover{
+    color: #c35a4c;
+}
+
+nav li a:active{
+    color: #DDA528;
 }
 /* ------- [ Simple Grid ] ------- */
 

@@ -6,9 +6,9 @@ p {
 
 .container {
   display: block;
-	width: 940px;
-	margin-right: auto;
-	margin-left: auto;
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
   overflow: visible;
   clear: both;
 }
@@ -105,7 +105,7 @@ nav li a:active{
  color: #a5cb9c;
   }
 .home {
-margin-top: 77px;
+ margin-top: 77px;
 }
 
 .life {
@@ -128,9 +128,9 @@ h2{
   width: 100%;
   padding: 100px 0;
   float: left;
-    background: url("../images/miles-waynep2nh.jpg") no-repeat;
-background-size:cover;
- background-position-y:50%;
+  background: url("../images/miles-waynep2nh.jpg") no-repeat;
+  background-size:cover;
+  background-position-y:50%;
 }
 
 .carousel-cell{
@@ -224,8 +224,8 @@ background-size:cover;
   padding:100px 0;
   float:left; 
   background: url("../images/miles-davis-looking-off.jpg") no-repeat;
-background-size:cover;
- background-position-x:50%;
+  background-size:cover;
+  background-position-x:50%;
 }
 
 .career h2{
@@ -336,7 +336,7 @@ form input{
 }
 
 
- input{
+input{
   height: 50px;
   width: 100px;
   background-color:#DDA528;
@@ -344,8 +344,8 @@ form input{
   font-weight: 100;
   color: #ffffff;
   border-radius:10px;
- margin-left:450px;
-   opacity: 100% !important;
+  margin-left:450px;
+  opacity: 100% !important;
 }
 
 /* Footer */

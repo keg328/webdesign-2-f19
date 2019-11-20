@@ -29,7 +29,7 @@ header{
 }
 
 .branding{
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/logo.svg")     no-repeat;
+  background: url("../images/logo.svg") no-repeat;
   width: 170px;
   height: 40px;
   float: left;
@@ -112,7 +112,7 @@ margin-top: 77px;
   width: 100%;
   padding: 100px 0;
   float: left;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/dark-honeycomb.png");
+  background: url("../images/dark-honeycomb.png");
 }
 
 h2{
@@ -128,7 +128,7 @@ h2{
   width: 100%;
   padding: 100px 0;
   float: left;
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/miles-waynep2nh.jpg") no-repeat;
+    background: url("../images/miles-waynep2nh.jpg") no-repeat;
 background-size:cover;
  background-position-y:50%;
 }
@@ -153,7 +153,7 @@ background-size:cover;
   width: 100%;
   padding: 100px 0;
   float: left;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/dark-honeycomb.png") repeat;
+  background: url("../images/dark-honeycomb.png") repeat;
 }
 
 .row{
@@ -165,7 +165,7 @@ background-size:cover;
 .box-grid h3{
   margin: 10px 10px 0 10px;
   color: #ffffff;
-  font: 18pt Arial, sans-serif;
+  font: 18pt "Asap Condensed", sans-serif;
   letter-spacing: -1px;
   font-weight: bold;
 }
@@ -174,7 +174,7 @@ background-size:cover;
   padding: 0 10px;
   color: red;
   font-weight: bold;
-  font: 10pt 'Arial' , sans-serif;
+  font: 10pt "Asap Condensed", sans-serif;
 }
 
 .box-grid{
@@ -223,7 +223,7 @@ background-size:cover;
   width:100%;
   padding:100px 0;
   float:left; 
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/miles-davis-looking-off.jpg") no-repeat;
+  background: url("../images/miles-davis-looking-off.jpg") no-repeat;
 background-size:cover;
  background-position-x:50%;
 }
@@ -245,7 +245,7 @@ background-size:cover;
   width:100%;
   padding:100px 0;
   float:left; 
-   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/dark-honeycomb.png") repeat;
+   background: url("../images/dark-honeycomb.png") repeat;
 }
 
 .impact h2{
@@ -281,7 +281,7 @@ background-size:cover;
   width:100%;
   padding:100px 0;
   float:left;
-  background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3533991/brody-davis-coltrane.jpg") no-repeat;
+  background:url("../images/brody-davis-coltrane.jpg") no-repeat;
   background-size:cover;
   background-position-y: 50%;
  

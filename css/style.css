@@ -96,7 +96,7 @@ nav li a:active{
 .type-overlay h1{
  width: 100%;
  position: absolute;
- top: 250px;
+ top: 350px;
  z-index: 5;
  text-align: center;
  font-family: "Zilla Slab", serif;
@@ -139,6 +139,7 @@ h2{
   margin-right: 15px;
   text-align: center;
   counter-increment: carousel-cell;
+  border-radius:5px;
 	
  }
 .carousel{
@@ -235,7 +236,9 @@ h2{
   text-shadow:2px 2px 4px black;
   }
 .career p{
-  text-shadow:1px 2px 2px black;
+  text-shadow:1px 2px 1px black;
+  color: #DDA528;
+  
 }
 
 .career img{
@@ -258,7 +261,7 @@ h2{
 .impact h4{
   font-family:"Zilla Slab", serif;
   text-align:center;
-  color:#a5cb9c;
+  color:#DDA528;
 }
 
 .impact img{
@@ -276,6 +279,7 @@ h2{
 
 .impact p{
   text-align:center;
+	color:#DDA528;
 }
 
 
@@ -301,8 +305,9 @@ form input{
 }
 
 .contact label{
-  color:#A5CB9C;
-  text-shadow: 1px 2px 4px black;
+  color:#DDA528;
+  text-shadow: 1px 2px 2px black;
+ 
 }
 
 .contact input#fname{

@@ -63,30 +63,32 @@ h2 {
 	text-align: center;
 	margin-bottom: 100px;
     font-weight:900;
-    
-}
+ }
+
 h3 {
 	font-size: 1.777em;
 }
+
 h4 {
 	font-size: 1.333em;
 	font-weight: 900;
 	
 }
+
 h5 {
 	font-size: 1em;
 	font-weight: 900;
 }
+
 h6 {
 	font-size: 1em;
 	font-weight: 900;
 }
 
-
-
 .small-text {
 	font-size: 0.75em;
 }
+
 .large-text {
 	font-size: 1.2em;
 }
@@ -97,26 +99,32 @@ h6 {
 	text-decoration: none;
 	outline: 0;
 }
+
  a:visited {
 	color: #C35A4C;
 	text-decoration: none;
 	outline: 0;
 }
+
  a:hover {
 	color: #DDA528;
 	text-decoration: underline;
 }
+
  a:active {
 	color: #C35A4C;
 	text-decoration:none
 }
+
 .more {
 	font-size: 0.9em;
 	text-transform: uppercase;
 }
+
 .more a:link {
 	text-decoration: none;
 }
+
 .more a:hover {
 	text-decoration: none;
 }
@@ -140,6 +148,7 @@ nav li a:hover{
 nav li a:active{
     color: #DDA528;
 }
+
 /* ------- [ Simple Grid ] ------- */
 
 /* 2 Columns */
@@ -148,6 +157,7 @@ nav li a:active{
   float: left;
   margin-right: 20px;
 }
+
 .columns_2:last-of-type {
   margin-right: 0;
 }
@@ -171,6 +181,7 @@ nav li a:active{
   float: left;
   margin-right: 20px;
 }
+
 .columns_4:last-of-type {
   margin-right: 0;
 }
@@ -181,6 +192,7 @@ nav li a:active{
   float: left;
   margin-right: 20px;
 }
+
 .columns_6:last-of-type {
   margin-right: 0;
 }
@@ -191,6 +203,7 @@ nav li a:active{
   float: left;
   margin-right: 20px;
 }
+
 .columns_12:last-of-type {
   margin-right: 0;
 }
@@ -201,6 +214,7 @@ nav li a:active{
   clear: both;
   display: block;
 }
+
 .clearfix:after, .container:after {
   clear: both;
   content: "\0020";
@@ -209,21 +223,26 @@ nav li a:active{
   overflow: hidden;
   visibility: hidden;
 }
+
 .remove-bottom { 
 	margin-bottom: 0; 
 }
+
 .half-bottom { 
 	margin-bottom: 10px;
 }
+
 .add-bottom {
 	margin-bottom: 20px;
 }
+
 .credit {
 	font-size: 0.9em;
 	font-style: italic;
 	color: #888;
 	text-align: left;
 }
+
 .align-right {
   float: right;
   margin: 0 0 0 10px;
@@ -238,6 +257,7 @@ nav li a:active{
 	float: left;
 	margin: 0 10px 0 0;
 }
+
 .screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
 
 pre {
@@ -247,10 +267,12 @@ pre {
     margin-bottom: 18px;
     padding: 1.5em;
 }
+
 ins {
     background: none repeat scroll 0 0 #ffc;
     text-decoration: none;
 }
+
 abbr[title], acronym {
     cursor: help;
 }
@@ -258,9 +280,11 @@ abbr[title], acronym {
 dl {
     margin: 0 0 24px;
 }
+
 dt {
     font-weight: bold;
 }
+
 dd {
     margin-bottom: 18px;
 }
@@ -278,6 +302,7 @@ fieldset {
     margin: 0;
     padding: 0;
 }
+
 textarea {
     resize: vertical;
 }
@@ -292,29 +317,33 @@ figcaption {
 ul {
     list-style: square outside none;
     margin: 0 0 18px 0;
-  
-}
+ }
+
 ol {
     list-style: decimal outside none;
     margin: 0 0 18px 0;
 }
+
 ul ul {
    list-style: circle outside none;
    margin: 0 0 8px ;
 }
+
 ol ol {
     list-style: upper-alpha outside none;
 }
+
 ol ol ol {
     list-style: lower-roman outside none;
 }
+
 ol ol ol ol {
     list-style: lower-alpha outside none;
 }
+
 ul ul, ol ol, ul ol, ol ul {
     margin-bottom: 0;
 }
-
 
 /* ------- [ Table ] ------- */
 
@@ -322,30 +351,35 @@ table {
 	border: 1px solid #777;
 	text-align: left;
 	width: 100%;
-}		
+}	
+
 caption {
 	margin-top: 1em;
 	margin-bottom: 1em;
 }
+
 th, td { 
 	font-size: .8em;
 	padding: .65em;
 }
+
 thead, th  {
 	background: #666666;
 	color: #fff; 
 	border: 1px solid #000;
 }
+
 tr:nth-child(odd) { 
 	background: #ccc;
 }
+
 tr:hover {
 	background: #aaa;
 } 
+
 td {
 	border-right: 1px solid #777;
 }
-
 
 /* ------- [ User Added CSS ] ------- */
 
@@ -362,10 +396,10 @@ td {
   background-color: #ffda96;
 }
 
-
 .header{
 	width: 100%;
 }
+
 /* ------- [ Print ] ------- */
 
 @media print {

@@ -13,6 +13,15 @@ p {
   clear: both;
 }
 
+.hero-container {
+  display: block;
+  width:auto;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  clear: both;
+}
+
 .row{
   margin-bottom:20px;
   float:left;
@@ -90,6 +99,7 @@ nav li a:active{
  height:100%;
  display: block;
  position: relative;
+  
 }
 
 .type-overlay h1{
@@ -106,6 +116,7 @@ nav li a:active{
 
 .home {
  margin-top: 77px;
+ overflow: hidden;
 }
 
 .life {

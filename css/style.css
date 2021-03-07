@@ -105,7 +105,7 @@ nav li a:active{
 .type-overlay h1{
  width: 100%;
  position: absolute;
- top: 350px;
+ top: 600px;
  z-index: 5;
  text-align: center;
  font-family: "Zilla Slab", serif;
@@ -249,13 +249,15 @@ h2{
 
 .career p{
   text-shadow:1px 2px 1px black;
-  color: #a5cb9c;
+  color: white;
 }
 
 .career img{
   border-radius:5px;
 }
-
+.career .small-text{
+  font:  "Asap Condensed", sans-serif !important;
+}
 
 /*Impact*/
 .impact{
